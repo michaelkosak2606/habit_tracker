@@ -72,7 +72,7 @@ export default class Statistics extends Component {
                     return (
                       <List>
                         <ListItem key={dateKey + habitId}>
-                          {habit.type === "counter" && `${habitEntry}`}{" "}
+                          {habit.type === "counter" && `${habitEntry}`}
                           {habit.text}
                         </ListItem>
                       </List>

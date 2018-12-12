@@ -5,7 +5,6 @@ import DateSwitch from './DateSwitch'
 import CounterButton from './CounterButton'
 import ToggleButton from './ToggleButton'
 import Footer from './Footer'
-
 import headerImage from '../images/header.svg'
 
 class CurrentDay extends Component {

@@ -59,15 +59,15 @@ export default class CounterButton extends Component {
     `;
     return (
       <div className={counterButtonStyle}>
-        <box className={smallButtonLeft} onClick={this.props.onDecrease}>
+        <div className={smallButtonLeft} onClick={this.props.onDecrease}>
           <div className={minusSize} />
-        </box>
+        </div>
         <span className={TetxStyle}>
           {this.props.count} {this.props.text}
         </span>
-        <box className={smallButtonRight} onClick={this.props.onIncrease}>
+        <div className={smallButtonRight} onClick={this.props.onIncrease}>
           <div className={plusSize}> + </div>
-        </box>
+        </div>
       </div>
     );
   }
