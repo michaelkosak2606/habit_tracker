@@ -38,7 +38,7 @@ export default class Statistics extends Component {
     `;
 
     const Header = styled("header")`
-      background-image: url(/static/media/header.0575ac55.svg);
+      background-image: url(/static/media/header.8d8137e7.svg);
       background-size: cover;
     `;
 

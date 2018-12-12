@@ -1,4 +1,4 @@
-import { moveDayLeft } from './actions'
+
 import Actions from './actions'
 import { getCurrentDate } from './containers/CurrentDayView'
 

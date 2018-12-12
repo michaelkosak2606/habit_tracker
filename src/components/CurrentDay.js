@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { css } from 'emotion'
 import styled from 'react-emotion'
-
 import DateSwitch from './DateSwitch'
 import CounterButton from './CounterButton'
 import ToggleButton from './ToggleButton'

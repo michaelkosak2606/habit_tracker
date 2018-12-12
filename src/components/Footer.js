@@ -3,7 +3,7 @@ import { css } from "emotion";
 import styled from "react-emotion";
 import { NavLink } from "react-router-dom";
 
-const smth = css`
+const container = css`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,21 +52,21 @@ export default class Footer extends Component {
   render() {
     return (
       <div className={linkContainerStyle}>
-        <box className={smth}>
+        <div className={container}>
           <StyledLink activeClassName="active" exact to="/">
             Current Day
           </StyledLink>
-        </box>
-        <box className={smth}>
+        </div>
+        <div className={container}>
           <StyledLink activeClassName="active" to="/statistics">
             Statistics
           </StyledLink>
-        </box>
-        <box className={smth}>
+        </div>
+        <div className={container}>
           <StyledLink activeClassName="active" to="/charts">
             Charts
           </StyledLink>
-        </box>
+        </div>
       </div>
     );
   }
